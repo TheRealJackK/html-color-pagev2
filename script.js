@@ -9,8 +9,10 @@ redGroup.innerHTML = colorData.filter(colour => colour.group === "reds").map(col
         `
         <div class="colour-card" style="background:${colour.color};">
             <p>${colour.color}</p>
-            <p>${colour.rgbValue}</p>
-            <p>${colour.hex}</p>
+            <div class="inner-card" style="background:${colour.color};">
+                <p>${colour.rgbValue}</p>
+                <p>${colour.hex}</p>
+            </div>
         </div>
         `
     )
@@ -21,8 +23,10 @@ greenGroup.innerHTML = colorData.filter(colour => colour.group === "greens").map
         `
         <div class="colour-card" style="background:${colour.color};">
             <p>${colour.color}</p>
-            <p>${colour.rgbValue}</p>
-            <p>${colour.hex}</p>
+            <div class="inner-card" style="background:${colour.color};">
+                <p>${colour.rgbValue}</p>
+                <p>${colour.hex}</p>
+            </div>
         </div>
         `
     )
@@ -33,8 +37,10 @@ blueGroup.innerHTML = colorData.filter(colour => colour.group === "blues").map(c
         `
         <div class="colour-card" style="background:${colour.color};">
             <p>${colour.color}</p>
-            <p>${colour.rgbValue}</p>
-            <p>${colour.hex}</p>
+            <div class="inner-card" style="background:${colour.color};">
+                <p>${colour.rgbValue}</p>
+                <p>${colour.hex}</p>
+            </div>
         </div>
         `
     )

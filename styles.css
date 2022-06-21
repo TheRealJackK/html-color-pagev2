@@ -27,3 +27,22 @@ body {
     border-radius: 4px;
     text-align: center;
 }
+
+.colour-card:hover > .inner-card {
+    display: block;
+    position: relative;
+    transition: 500ms;
+}
+
+.inner-card {
+    display: none;
+}
+
+p {
+    transition: 500ms;
+    cursor: pointer;
+}
+
+p:hover {
+    color: white;
+}
