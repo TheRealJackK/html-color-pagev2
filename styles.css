@@ -4,6 +4,26 @@ body {
     font-family: 'Kanit', sans-serif;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    padding-bottom: 2em;
+    border-bottom: 1px solid black;
+}
+
+nav > a {
+    margin-left: 1em;
+    margin-right: 1em;
+    color: dodgerblue;
+    text-decoration: none;
+}
+
 .colour-container {
     display: flex;
     flex-direction: column;
